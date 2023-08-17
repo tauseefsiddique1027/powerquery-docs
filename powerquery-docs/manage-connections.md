@@ -22,7 +22,7 @@ The entry to the **Manage connections** dialog is available in the Power Query *
 
 :::image type="content" source="media/manage-connections/manage-connections-dialog.png" alt-text="Screenshot of the Manage connections dialog showcasing multiple connections on its page." lightbox="media/manage-connections/manage-connections-dialog.png":::
 
-## Disconnect a connection
+## Unlink a connection
 
 Right next to the name of connection, and before the **Source type** column, there's an icon to disconnect the connection.
 
@@ -33,6 +33,16 @@ When you disconnect a connection, you're simply removing the reference of the co
 A new prompt then asks you to confirm that you want to disconnect the connection.
 
 :::image type="content" source="media/manage-connections/confirmation-prompt.png" alt-text="Screenshot of the prompt asking you to confirm the disconnect action.":::
+
+## Edit capability
+
+Right next to the name of connection, and before the **Source type** column, there's an icon to edit the connection. 
+
+Here, you can edit the following information about your connection:
+
+* **Connection name:** This is the name that you can define to uniquely identify your connections. Note that you can't duplicate the name of a connection in your environment.
+* **Data gateway:** If your data source requires a data gateway, select the gateway using the dropdown list from this field.
+* **Authentication kind & credentials:** Depending on the connector, you're presented with multiple authentication kind options that are available to establish a connection, as well as fields where you enter your credentials. For this example, the Windows authentication kind has been selected and you can see the **Username** and **Password** fields that need to be filled in to establish a connection.
 
 >[!NOTE]
 >If you want to delete a connection from within a specific product integration, such as Microsoft Power BI or Microsoft Fabric, be sure to check out the documentation for each product on how a centralized connections portal can be used.
